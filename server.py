@@ -26,9 +26,9 @@ def init_robot(edge: EdgeRobot):
     if not edge.ready:
         edge.log.error("start edge failed!")
         sys.exit(1)
-    main_page_url = os.environ.get("MAIN_PAGE_URL")
-    edge_visit_url(edge, main_page_url, 2)
-    edge.log.info(f"Edge with page {main_page_url} is ready")
+    usage_page_url = f"http://localhost:{os.environ.get('HTTP_SERVER_PORT')}"
+    edge.window.type_keys(usage_page_url + "{ENTER}")
+    edge.log.info(f"Edge Robot Is Ready!")
 
 
 def prepare_robot(edge: EdgeRobot):

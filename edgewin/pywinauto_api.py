@@ -1,5 +1,3 @@
-import subprocess
-
 import psutil
 from pywinauto import Desktop, Application, WindowSpecification
 from pywinauto.findwindows import find_windows
