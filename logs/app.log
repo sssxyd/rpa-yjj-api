@@ -1,0 +1,70 @@
+2025/02/25 14:58:54 SqliteDataSource.go:58: executing statement: CREATE TABLE IF NOT EXISTS "storage" (
+			"id"	INTEGER NOT NULL UNIQUE,
+			"store_key"	TEXT NOT NULL DEFAULT "",
+			"store_value"	TEXT NOT NULL DEFAULT "",
+			"expired_at"	INTEGER NOT NULL DEFAULT 0,
+			PRIMARY KEY("id" AUTOINCREMENT)
+		);
+2025/02/25 14:58:54 SqliteDataSource.go:58: executing statement: CREATE INDEX IF NOT EXISTS "idx_storage_store_key" ON "storage" (
+			"store_key"	ASC
+		);
+2025/02/25 14:58:54 SqliteDataSource.go:58: executing statement: CREATE INDEX IF NOT EXISTS "idx_storage_expired_at" ON "storage" (
+			"expired_at"	ASC
+		);
+2025/02/25 14:58:54 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/25 14:58:54 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/25 14:58:54 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/25 14:58:54 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/25 16:33:58 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 16:34:05 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/25 16:34:05 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/25 16:34:05 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/25 16:34:05 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/25 16:34:24 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 16:34:42 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/25 16:34:42 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/25 16:34:42 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/25 16:34:42 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/25 17:07:50 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:07:54 browser_edge.go:39: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:9222
+2025/02/25 17:13:01 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:13:04 browser_edge.go:75: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:9731
+2025/02/25 17:13:21 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:13:24 browser_edge.go:75: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:9238
+2025/02/25 17:16:34 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:16:37 browser_edge.go:70: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:9222
+2025/02/25 17:16:44 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:16:48 browser_edge.go:70: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:9222
+2025/02/25 17:17:30 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:17:34 browser_edge.go:70: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:9222
+2025/02/25 17:23:34 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:23:37 browser_edge.go:72: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED ::1:50000
+2025/02/25 17:27:12 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:27:16 browser_edge.go:95: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:27:36 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:27:39 browser_edge.go:95: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:27:53 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:27:56 browser_edge.go:95: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:28:48 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:28:51 browser_edge.go:95: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:34:43 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:34:46 browser_edge.go:95: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:38:30 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:38:33 browser_edge.go:96: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:52:11 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:52:14 browser_edge.go:97: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:52:56 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:52:59 browser_edge.go:97: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:53:53 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:53:56 browser_edge.go:97: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:55:50 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:55:53 browser_edge.go:99: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:56:14 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:56:17 browser_edge.go:99: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 17:56:31 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 17:56:34 browser_edge.go:99: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9222
+2025/02/25 18:00:56 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/25 18:01:15 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/25 18:01:15 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/25 18:01:15 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/25 18:01:15 SqliteDataSource.go:337: _local_storage's writer closed
