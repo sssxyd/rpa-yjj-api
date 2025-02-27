@@ -9,7 +9,6 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/playwright-community/playwright-go"
 	"github.com/sssxyd/go-lts-core"
 )
 
@@ -53,19 +52,13 @@ func main() {
 	root_path := get_app_root_dir()
 	fmt.Println("Root path:", root_path)
 
-	_, page, cleanup := StartWithPlaywright()
-
-	defer cleanup()
-
-	// 使用页面访问百度（可选）
-	_, err := page.Goto("https://www.baidu.com", playwright.PageGotoOptions{
-		WaitUntil: playwright.WaitUntilStateDomcontentloaded,
-	})
+	pe, err := NewPlaywrightEdge(0)
 	if err != nil {
-		log.Fatalf("无法访问百度: %v", err)
+		log.Fatalf("无法启动 Edge 浏览器: %v", err)
 	}
-	fmt.Println("已成功访问百度网站")
-	time.Sleep(15 * time.Second)
+	defer pe.Close()
+	pe.NewPage("juejin", "https://juejin.cn")
+	time.Sleep(60 * time.Second)
 
 	fmt.Println("--------------------")
 

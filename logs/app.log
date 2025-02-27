@@ -68,3 +68,840 @@
 2025/02/25 18:01:15 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
 2025/02/25 18:01:15 SqliteDataSource.go:331: _local_storage's reader closed
 2025/02/25 18:01:15 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 11:02:15 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 11:02:36 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 11:02:36 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 11:02:36 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 11:02:36 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 11:06:39 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 11:06:42 browser_edge.go:72: 无法连接到 Edge 实例: playwright: connect ECONNREFUSED 127.0.0.1:9223
+2025/02/27 11:26:20 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 11:26:36 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 11:26:36 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 11:26:36 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 11:26:36 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 11:26:43 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 11:27:00 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 11:27:00 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 11:27:00 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 11:27:00 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:21:45 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:21:46 browser_edge.go:123: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:22:02 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:22:02 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:22:02 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:22:02 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:22:10 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:22:11 main.go:58: 无法启动 Edge 浏览器: 无法关闭 Edge 进程: exit status 128
+2025/02/27 14:24:50 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:24:51 main.go:58: 无法启动 Edge 浏览器: 无法关闭 Edge 进程: exit status 128
+2025/02/27 14:30:26 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:31:50 main.go:58: 无法启动 Edge 浏览器: 无法关闭 Edge 进程: exit status 128
+2025/02/27 14:36:15 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:36:18 browser_edge.go:143: Edge 浏览器已通过系统命令启动，调试端口: 9222
+2025/02/27 14:36:34 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:36:34 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:36:34 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:36:34 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:38:48 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:38:49 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:39:05 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:39:05 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:39:05 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:39:05 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:40:40 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:40:43 browser_edge.go:143: Edge 浏览器已通过系统命令启动，调试端口: 9222
+2025/02/27 14:40:59 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:40:59 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:40:59 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:40:59 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:45:29 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:45:30 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:46:10 main.go:41: Received signal: interrupt. Shutting down...
+2025/02/27 14:46:10 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:46:10 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:46:10 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:46:10 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:47:28 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:47:29 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:47:59 main.go:41: Received signal: interrupt. Shutting down...
+2025/02/27 14:47:59 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:47:59 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:47:59 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:47:59 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:48:46 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:48:46 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:48:58 main.go:41: Received signal: interrupt. Shutting down...
+2025/02/27 14:48:58 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:48:58 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:48:58 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:48:58 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:49:07 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:49:08 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:49:24 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:49:24 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:49:24 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:49:24 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 14:58:25 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 14:58:26 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 14:58:41 main.go:41: Received signal: interrupt. Shutting down...
+2025/02/27 14:58:41 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 14:58:41 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 14:58:41 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 14:58:41 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:00:24 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:00:25 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:00:26 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:00:49 main.go:41: Received signal: interrupt. Shutting down...
+2025/02/27 15:00:49 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:00:49 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:00:49 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:00:49 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:01:28 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:01:29 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:01:29 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:01:40 main.go:41: Received signal: interrupt. Shutting down...
+2025/02/27 15:01:40 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:01:40 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:01:40 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:01:40 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:01:52 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:01:53 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:01:53 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:02:08 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:02:08 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:02:08 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:02:08 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:03:23 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:03:24 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:03:25 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:03:25 browser_edge.go:247: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:03:40 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:03:40 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:03:40 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:03:40 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:04:03 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:04:04 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:04:04 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:04:30 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:04:30 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:04:30 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:04:30 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:04:30 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:06:44 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:06:45 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:06:45 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:06:46 browser_edge.go:247: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:07:02 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:07:02 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:07:02 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:07:02 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:07:37 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:07:38 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:07:38 browser_edge.go:247: 已成功访问网站: about:blank
+2025/02/27 15:07:38 browser_edge.go:265: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:07:39 browser_edge.go:247: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:07:40 browser_edge.go:265: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:07:55 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:07:55 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:07:55 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:07:55 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:11:31 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:11:32 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:11:32 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:11:32 browser_edge.go:275: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:11:34 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:11:34 browser_edge.go:275: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:11:49 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:11:49 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:11:49 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:11:49 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:12:59 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:13:00 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:13:00 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:13:00 browser_edge.go:267: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:13:01 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:13:01 browser_edge.go:267: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:13:16 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:13:16 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:13:16 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:13:16 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:17:24 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:17:25 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:17:25 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:17:25 browser_edge.go:275: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:17:27 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:17:27 browser_edge.go:275: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:17:42 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:17:42 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:17:42 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:17:42 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:19:17 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:19:18 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:19:19 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:19:19 browser_edge.go:277: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:19:20 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:19:20 browser_edge.go:277: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:19:35 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:19:35 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:19:35 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:19:35 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:20:40 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:20:41 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:20:41 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:20:41 browser_edge.go:277: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:20:42 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:20:42 browser_edge.go:277: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:20:56 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:20:56 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:20:56 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:20:56 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:20:56 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:21:20 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:21:21 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:21:22 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:21:22 browser_edge.go:278: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:21:23 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:21:23 browser_edge.go:278: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:21:38 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:21:38 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:21:38 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:21:38 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:22:13 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:22:14 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:22:14 browser_edge.go:256: 已成功访问网站: about:blank
+2025/02/27 15:22:14 browser_edge.go:277: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:22:15 browser_edge.go:256: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:22:15 browser_edge.go:277: 已阻止页面通过性能API侦测websocket连接和关闭
+2025/02/27 15:22:30 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:22:30 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:22:30 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:22:30 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:25:53 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:25:54 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:25:54 browser_edge.go:281: 已成功访问网站: about:blank
+2025/02/27 15:25:55 browser_edge.go:281: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:27:25 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:27:25 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:27:25 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:27:25 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:27:25 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:27:31 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:27:32 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:27:32 browser_edge.go:281: 已成功访问网站: about:blank
+2025/02/27 15:27:34 browser_edge.go:281: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:28:57 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:28:57 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:28:57 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:28:57 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:28:57 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:29:19 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:29:22 browser_edge.go:143: Edge 浏览器已通过系统命令启动，调试端口: 10086
+2025/02/27 15:29:23 browser_edge.go:276: 已成功访问网站: about:blank
+2025/02/27 15:29:24 browser_edge.go:276: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:30:26 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:30:26 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:30:26 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:30:26 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:30:26 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:30:31 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:30:33 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:30:33 browser_edge.go:281: 已成功访问网站: about:blank
+2025/02/27 15:30:35 browser_edge.go:281: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:30:50 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:30:50 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:30:50 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:30:50 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:33:37 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:33:38 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:33:38 browser_edge.go:289: 已成功访问网站: about:blank
+2025/02/27 15:33:39 browser_edge.go:289: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:34:39 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:34:39 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:34:39 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:34:39 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:34:39 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:34:44 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:34:45 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:34:45 browser_edge.go:294: 已成功访问网站: about:blank
+2025/02/27 15:34:47 browser_edge.go:294: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:35:02 browser_edge.go:196: 正在关闭 Edge 浏览器...
+2025/02/27 15:35:44 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:35:44 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:35:44 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:35:44 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:35:44 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:35:49 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:35:50 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:35:50 browser_edge.go:289: 已成功访问网站: about:blank
+2025/02/27 15:35:52 browser_edge.go:289: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:36:07 browser_edge.go:196: 正在关闭 Edge 浏览器...
+2025/02/27 15:36:28 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:36:28 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:36:28 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:36:28 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:36:28 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:36:39 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:36:40 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:36:41 browser_edge.go:289: 已成功访问网站: about:blank
+2025/02/27 15:36:42 browser_edge.go:289: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:36:57 browser_edge.go:196: 正在关闭 Edge 浏览器...
+2025/02/27 15:36:57 browser_edge.go:203: 已关闭所有页面
+2025/02/27 15:36:57 browser_edge.go:206: 已关闭浏览器上下文
+2025/02/27 15:36:57 browser_edge.go:208: 已关闭浏览器
+2025/02/27 15:36:57 browser_edge.go:210: 已关闭 Playwright
+2025/02/27 15:36:57 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:36:57 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:36:57 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:36:57 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:43:35 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:43:36 browser_edge.go:174: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:43:36 browser_edge.go:298: 已成功访问网站: about:blank
+2025/02/27 15:43:38 browser_edge.go:298: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:43:53 browser_edge.go:220: 正在关闭 Edge 浏览器...
+2025/02/27 15:44:14 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:44:14 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:44:14 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:44:14 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:44:14 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:44:31 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:44:32 browser_edge.go:174: 已找到正在运行的 Edge 实例，调试端口:10086
+2025/02/27 15:44:32 browser_edge.go:298: 已成功访问网站: about:blank
+2025/02/27 15:44:34 browser_edge.go:298: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:44:49 browser_edge.go:220: 正在关闭 Edge 浏览器...
+2025/02/27 15:44:59 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:44:59 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:44:59 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:44:59 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:44:59 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:45:35 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:45:39 browser_edge.go:167: Edge 浏览器已通过系统命令启动，调试端口: 9222
+2025/02/27 15:45:39 browser_edge.go:298: 已成功访问网站: about:blank
+2025/02/27 15:45:41 browser_edge.go:298: 已成功访问网站: https://www.baidu.com
+2025/02/27 15:45:56 browser_edge.go:220: 正在关闭 Edge 浏览器...
+2025/02/27 15:45:56 browser_edge.go:228: 已关闭所有页面
+2025/02/27 15:45:56 browser_edge.go:231: 已关闭浏览器上下文
+2025/02/27 15:45:56 browser_edge.go:233: 已关闭浏览器
+2025/02/27 15:45:56 browser_edge.go:235: 已关闭 Playwright
+2025/02/27 15:45:56 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:45:56 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:45:56 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:45:56 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:47:02 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:47:03 browser_edge.go:174: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:47:03 browser_edge.go:298: 已成功访问网站: about:blank
+2025/02/27 15:47:06 browser_edge.go:298: 已成功访问网站: https://juejin.cn/
+2025/02/27 15:47:21 browser_edge.go:220: 正在关闭 Edge 浏览器...
+2025/02/27 15:48:44 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:48:44 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:48:44 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:48:44 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:48:44 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:48:49 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:48:50 browser_edge.go:169: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:48:50 browser_edge.go:293: 已成功访问网站: about:blank
+2025/02/27 15:48:53 browser_edge.go:293: 已成功访问网站: https://juejin.cn/
+2025/02/27 15:49:08 browser_edge.go:215: 正在关闭 Edge 浏览器...
+2025/02/27 15:49:41 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:49:41 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:49:41 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:49:41 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:49:41 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:51:51 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:51:52 browser_edge.go:179: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:51:52 browser_edge.go:303: 已成功访问网站: about:blank
+2025/02/27 15:51:55 browser_edge.go:303: 已成功访问网站: https://juejin.cn/
+2025/02/27 15:52:10 browser_edge.go:225: 正在关闭 Edge 浏览器...
+2025/02/27 15:52:31 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:52:31 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:52:31 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:52:31 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:52:31 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:56:10 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:56:11 browser_edge.go:186: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:56:12 browser_edge.go:310: 已成功访问网站: about:blank
+2025/02/27 15:56:15 browser_edge.go:310: 已成功访问网站: https://juejin.cn/
+2025/02/27 15:56:30 browser_edge.go:232: 正在关闭 Edge 浏览器...
+2025/02/27 15:56:55 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 15:56:55 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:56:55 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:56:55 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:56:55 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:57:38 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:57:39 browser_edge.go:186: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:57:39 browser_edge.go:310: 已成功访问网站: about:blank
+2025/02/27 15:57:39 browser_edge.go:111: 已在 about:blank 上注入 beforeunload
+2025/02/27 15:57:42 browser_edge.go:310: 已成功访问网站: https://juejin.cn/
+2025/02/27 15:57:42 browser_edge.go:111: 已在 https://juejin.cn/ 上注入 beforeunload
+2025/02/27 15:57:57 browser_edge.go:232: 正在关闭 Edge 浏览器...
+2025/02/27 15:57:57 browser_edge.go:129: 已在 https://juejin.cn/ 上移除 beforeunload
+2025/02/27 15:57:57 browser_edge.go:240: 已关闭所有页面
+2025/02/27 15:57:57 browser_edge.go:243: 已关闭浏览器上下文
+2025/02/27 15:57:57 browser_edge.go:245: 已关闭浏览器
+2025/02/27 15:57:57 browser_edge.go:247: 已关闭 Playwright
+2025/02/27 15:57:57 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 15:57:57 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 15:57:57 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 15:57:57 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 15:59:50 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 15:59:51 browser_edge.go:186: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 15:59:51 browser_edge.go:310: 已成功访问网站: about:blank
+2025/02/27 15:59:51 browser_edge.go:111: 已在 about:blank 上注入 beforeunload
+2025/02/27 15:59:54 browser_edge.go:310: 已成功访问网站: https://juejin.cn/
+2025/02/27 15:59:54 browser_edge.go:111: 已在 https://juejin.cn/ 上注入 beforeunload
+2025/02/27 16:00:09 browser_edge.go:232: 正在关闭 Edge 浏览器...
+2025/02/27 16:00:09 browser_edge.go:127: 移除 beforeunload 失败: playwright: target closed: Target page, context or browser has been closed
+2025/02/27 16:00:09 browser_edge.go:240: 已关闭所有页面
+2025/02/27 16:00:09 browser_edge.go:243: 已关闭浏览器上下文
+2025/02/27 16:00:09 browser_edge.go:245: 已关闭浏览器
+2025/02/27 16:00:09 browser_edge.go:247: 已关闭 Playwright
+2025/02/27 16:00:09 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 16:00:09 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 16:00:09 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 16:00:09 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 16:35:16 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 16:35:17 browser_edge.go:192: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 16:35:17 browser_edge.go:316: 已成功访问网站: about:blank
+2025/02/27 16:35:17 browser_edge.go:117: 已在 about:blank 上注入 beforeunload
+2025/02/27 16:35:20 browser_edge.go:316: 已成功访问网站: https://juejin.cn/
+2025/02/27 16:35:21 browser_edge.go:101: 模拟交互失败: playwright: Error: strict mode violation: locator('body') resolved to 2 elements:
+    1) <body data-theme="light">…</body> aka locator('body').filter({ hasText: '首页 首页 BOT 沸点 课程 免费学Trae' })
+    2) <body id="cici-inline-container">…</body> aka locator('#cici-inline-container')
+2025/02/27 16:35:21 browser_edge.go:117: 已在 https://juejin.cn/ 上注入 beforeunload
+2025/02/27 16:35:36 browser_edge.go:238: 正在关闭 Edge 浏览器...
+2025/02/27 16:35:36 browser_edge.go:133: 移除 beforeunload 失败: playwright: target closed: Target page, context or browser has been closed
+2025/02/27 16:35:36 browser_edge.go:246: 已关闭所有页面
+2025/02/27 16:35:36 browser_edge.go:249: 已关闭浏览器上下文
+2025/02/27 16:35:36 browser_edge.go:251: 已关闭浏览器
+2025/02/27 16:35:36 browser_edge.go:253: 已关闭 Playwright
+2025/02/27 16:35:36 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 16:35:36 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 16:35:36 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 16:35:36 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 16:39:45 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 16:39:46 browser_edge.go:202: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 16:39:46 browser_edge.go:326: 已成功访问网站: about:blank
+2025/02/27 16:39:46 browser_edge.go:127: 已在 about:blank 上注入 beforeunload
+2025/02/27 16:40:11 browser_edge.go:326: 已成功访问网站: https://juejin.cn/
+2025/02/27 16:40:11 browser_edge.go:106: 找到多个 body 元素
+2025/02/27 16:40:18 browser_edge.go:111: 模拟交互失败: playwright: target closed: Target page, context or browser has been closed
+2025/02/27 16:40:18 browser_edge.go:125: 注入 beforeunload 失败: playwright: target closed: Target page, context or browser has been closed
+2025/02/27 16:40:33 browser_edge.go:248: 正在关闭 Edge 浏览器...
+2025/02/27 16:40:33 browser_edge.go:143: 移除 beforeunload 失败: playwright: target closed: Target page, context or browser has been closed
+2025/02/27 16:40:33 browser_edge.go:256: 已关闭所有页面
+2025/02/27 16:40:33 browser_edge.go:259: 已关闭浏览器上下文
+2025/02/27 16:40:33 browser_edge.go:261: 已关闭浏览器
+2025/02/27 16:40:33 browser_edge.go:263: 已关闭 Playwright
+2025/02/27 16:40:33 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 16:40:33 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 16:40:33 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 16:40:33 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 16:51:17 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 16:51:18 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 16:51:18 browser_edge.go:306: 已成功访问网站: about:blank
+2025/02/27 16:51:18 browser_edge.go:127: 已在 about:blank 上拦截 Performance API
+2025/02/27 16:51:21 browser_edge.go:306: 已成功访问网站: https://juejin.cn/
+2025/02/27 16:51:21 browser_edge.go:127: 已在 https://juejin.cn/ 上拦截 Performance API
+2025/02/27 16:51:36 browser_edge.go:230: 正在关闭 Edge 浏览器...
+2025/02/27 16:51:36 browser_edge.go:237: 已关闭所有页面
+2025/02/27 16:51:36 browser_edge.go:240: 已关闭浏览器上下文
+2025/02/27 16:51:36 browser_edge.go:242: 已关闭浏览器
+2025/02/27 16:51:36 browser_edge.go:244: 已关闭 Playwright
+2025/02/27 16:51:36 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 16:51:36 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 16:51:36 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 16:51:36 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 16:59:45 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 16:59:46 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 16:59:46 browser_edge.go:334: 已成功访问网站: about:blank
+2025/02/27 16:59:49 browser_edge.go:334: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:00:04 browser_edge.go:258: 正在关闭 Edge 浏览器...
+2025/02/27 17:00:04 browser_edge.go:265: 已关闭所有页面
+2025/02/27 17:00:04 browser_edge.go:268: 已关闭浏览器上下文
+2025/02/27 17:00:04 browser_edge.go:270: 已关闭浏览器
+2025/02/27 17:00:04 browser_edge.go:272: 已关闭 Playwright
+2025/02/27 17:00:04 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:00:04 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:00:04 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:00:04 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:00:16 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:00:17 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:00:17 browser_edge.go:334: 已成功访问网站: about:blank
+2025/02/27 17:00:20 browser_edge.go:334: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:01:20 browser_edge.go:258: 正在关闭 Edge 浏览器...
+2025/02/27 17:01:20 browser_edge.go:265: 已关闭所有页面
+2025/02/27 17:01:20 browser_edge.go:268: 已关闭浏览器上下文
+2025/02/27 17:01:20 browser_edge.go:270: 已关闭浏览器
+2025/02/27 17:01:20 browser_edge.go:272: 已关闭 Playwright
+2025/02/27 17:01:20 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:01:20 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:01:20 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:01:20 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:01:25 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:01:27 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:01:27 browser_edge.go:334: 已成功访问网站: about:blank
+2025/02/27 17:01:30 browser_edge.go:334: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:02:30 browser_edge.go:258: 正在关闭 Edge 浏览器...
+2025/02/27 17:02:30 browser_edge.go:265: 已关闭所有页面
+2025/02/27 17:02:30 browser_edge.go:268: 已关闭浏览器上下文
+2025/02/27 17:02:30 browser_edge.go:270: 已关闭浏览器
+2025/02/27 17:02:30 browser_edge.go:272: 已关闭 Playwright
+2025/02/27 17:02:30 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:02:30 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:02:30 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:02:30 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:07:11 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:07:12 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:07:12 browser_edge.go:334: 已成功访问网站: about:blank
+2025/02/27 17:07:14 browser_edge.go:337: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:07:14 browser_edge.go:337: 页面控制台: 使用兜底 TDK
+2025/02/27 17:07:14 browser_edge.go:337: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:07:14 browser_edge.go:337: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:07:14 browser_edge.go:337: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:07:15 browser_edge.go:334: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ2hpeWFtaW4=:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ2hpeWFtaW4=:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LqO6LCm:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LqO6LCm:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ29kZVNoZWVw:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ29kZVNoZWVw:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Ieq5a2m5YmN56uvX-WPiOWPiA==:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Ieq5a2m5YmN56uvX-WPiOWPiA==:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgc25vd-WIhuS6qw==:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgc25vd-WIhuS6qw==:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmZyYW1l5ZGA:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSmZyYW1l5ZGA:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56ym6b6Z54mZ:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56ym6b6Z54mZ:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5ber5bGx6ICB5aaW:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5ber5bGx6ICB5aaW:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55uP54Gv:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55uP54Gv:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aSn6bqm5aSn6bqm:q75.awebp" parse error
+2025/02/27 17:07:15 browser_edge.go:337: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aSn6bqm5aSn6bqm:q75.awebp" parse error
+2025/02/27 17:07:16 browser_edge.go:337: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:07:16 browser_edge.go:337: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:07:37 browser_edge.go:337: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:07:37 browser_edge.go:337: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:08:15 browser_edge.go:258: 正在关闭 Edge 浏览器...
+2025/02/27 17:08:15 browser_edge.go:265: 已关闭所有页面
+2025/02/27 17:08:15 browser_edge.go:268: 已关闭浏览器上下文
+2025/02/27 17:08:15 browser_edge.go:270: 已关闭浏览器
+2025/02/27 17:08:15 browser_edge.go:272: 已关闭 Playwright
+2025/02/27 17:08:15 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:08:15 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:08:15 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:08:15 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:10:12 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:10:13 browser_edge.go:150: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:10:13 browser_edge.go:292: 已成功访问网站: about:blank
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: 使用兜底 TDK
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:10:15 browser_edge.go:295: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:10:16 browser_edge.go:292: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgM-aOkjPlj7c=:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgM-aOkjPlj7c=:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aKo5riK5ZCb:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aKo5riK5ZCb:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5byA5Y-R54ix5aW96ICF:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5byA5Y-R54ix5aW96ICF:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Ieq5Zyo55qE5bCP5p2O5a2Q:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Ieq5Zyo55qE5bCP5p2O5a2Q:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Zi_5LmQ5Y675Lmw6I-c:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Zi_5LmQ5Y675Lmw6I-c:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5LiJ5Y2DXw==:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5LiJ5Y2DXw==:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5qyn6Ziz:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5qyn6Ziz:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ2FwdGFpblo=:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ2FwdGFpblo=:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5qW36bmPRGV2:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5qW36bmPRGV2:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5aKZ56iL5bqP5ZGY:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5aKZ56iL5bqP5ZGY:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5Zub5LiD5Ly1:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5Zub5LiD5Ly1:q75.awebp" parse error
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:10:16 browser_edge.go:295: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:10:38 browser_edge.go:295: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:10:38 browser_edge.go:295: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:11:16 browser_edge.go:216: 正在关闭 Edge 浏览器...
+2025/02/27 17:11:16 browser_edge.go:223: 已关闭所有页面
+2025/02/27 17:11:16 browser_edge.go:226: 已关闭浏览器上下文
+2025/02/27 17:11:16 browser_edge.go:228: 已关闭浏览器
+2025/02/27 17:11:16 browser_edge.go:230: 已关闭 Playwright
+2025/02/27 17:11:16 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:11:16 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:11:16 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:11:16 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:14:25 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:14:27 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:14:56 main.go:40: Received signal: interrupt. Shutting down...
+2025/02/27 17:14:56 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:14:56 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:14:56 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:14:56 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:16:12 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:16:13 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:16:14 browser_edge.go:331: 已成功访问网站: about:blank
+2025/02/27 17:16:15 browser_edge.go:285: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:16:15 browser_edge.go:285: 页面控制台: 使用兜底 TDK
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:16:16 browser_edge.go:331: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5ZOI5bqT5ouJ6ams5aGU5aGU:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6Z-m5b636K-0MOS7o-eggeW7uuermQ==:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgb2ls5qyn5ZOf:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6LW15bCP5bed:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5a2Q5rSL:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv6YeR54aK:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSGFtbQ==:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5omL5pyv5YiA:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6ZSI5YS_5rW36ICB5biI:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgenl6enp6:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5aSn5r6I:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5oCd6ICD55qESm9leQ==:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYmx6bGg=:q75.awebp" parse error
+2025/02/27 17:16:16 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5ZOH5YG2d2Vi:q75.awebp" parse error
+2025/02/27 17:16:17 browser_edge.go:285: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:16:17 browser_edge.go:285: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:16:17 browser_edge.go:285: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:16:17 browser_edge.go:285: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: 使用兜底 TDK
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:16:35 browser_edge.go:285: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiA54K55LiA5pyo:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5p6XY29kaW5n:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgaG93Y29kZQ==:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiJ5Y6f:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6L-b6Zi255qE5bCP5Y-u5b2T:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgenhnX-elnuivtOimgeacieWFiQ==:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgR-aOoumZqeiAhQ==:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5a2Q5rSL:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5bCP5a-S:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY6L-96aOO:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ2h1Y2sxc24=:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5Lmd6YWS:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55m-5LiH5YmN56uv5ZCR5YmN5Yay:q75.awebp" parse error
+2025/02/27 17:16:36 browser_edge.go:285: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:16:39 browser_edge.go:285: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:17:16 browser_edge.go:250: 正在关闭 Edge 浏览器...
+2025/02/27 17:17:16 browser_edge.go:257: 已关闭所有页面
+2025/02/27 17:17:16 browser_edge.go:260: 已关闭浏览器上下文
+2025/02/27 17:17:16 browser_edge.go:262: 已关闭浏览器
+2025/02/27 17:17:16 browser_edge.go:264: 已关闭 Playwright
+2025/02/27 17:17:16 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:17:16 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:17:16 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:17:16 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:17:46 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:17:47 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:17:48 browser_edge.go:127: 已在 about:blank 上拦截 Performance API
+2025/02/27 17:17:48 browser_edge.go:337: 已成功访问网站: about:blank
+2025/02/27 17:17:49 browser_edge.go:285: 页面控制台: >>> 已拦截 Performance API，隐藏 127.0.0.1 连接
+2025/02/27 17:17:49 browser_edge.go:127: 已在 https://juejin.cn/ 上拦截 Performance API
+2025/02/27 17:17:49 browser_edge.go:285: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:17:49 browser_edge.go:285: 页面控制台: 使用兜底 TDK
+2025/02/27 17:17:49 browser_edge.go:285: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:17:49 browser_edge.go:285: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:17:49 browser_edge.go:285: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:17:50 browser_edge.go:337: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5p6B5a6i5a-G56CB:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgV2luc29uV3U=:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6KiO5Y6t5ZCD6aaZ6I-c:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiN54ix6K-06K-d6YOt5b6357qy:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5rOV55qE56m66Ze0:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgU2hlcGhlcmQ=:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgTWVydnluWg==:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgenhnX-elnuivtOimgeacieWFiQ==:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5qyn6Ziz:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgY29uZ18=:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgYmx6bGg=:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSGFtbQ==:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgV2FuZGVySW5r:q75.awebp" parse error
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:17:50 browser_edge.go:285: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:17:51 browser_edge.go:285: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:17:51 browser_edge.go:285: 页面控制台: Access to fetch at 'https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/b24e6622e7fc41ed9afdc002cc723348~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiN54ix6K-06K-d6YOt5b6357qy:q75.awebp?rk3s=f64ab15b&x-expires=1741252670&x-signature=f03%2FaH%2Bi50jJqjw%2FsepmDT1DtS8%3D' from origin 'https://juejin.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+2025/02/27 17:17:51 browser_edge.go:285: 页面控制台: Failed to load resource: net::ERR_FAILED
+2025/02/27 17:17:51 browser_edge.go:285: 页面控制台: [SDK] 1740647871089        0 获取header失败 TypeError: Failed to fetch
+    at fetch (https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/rc-client-security-web-glue/1.0.0.19/sdk-glue.js:1:43571)
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/rc-client-security-web-glue/1.0.0.19/sdk-glue.js:1:82234
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/e473033.js:3:2254253
+    at e (https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js:1:214165)
+    at e (https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js:1:213135)
+    at https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/sec_sdk_build/4.0.10/captcha/index.js:16:44602
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/slardar-plugin/imageReport.js:1:7069
+    at o (https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/slardar-plugin/imageReport.js:1:3227)
+    at https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=2608&globalName=SlardarWeb:1:13231
+    at o (https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=2608&globalName=SlardarWeb:1:3313)
+2025/02/27 17:18:12 browser_edge.go:285: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:18:50 browser_edge.go:250: 正在关闭 Edge 浏览器...
+2025/02/27 17:18:50 browser_edge.go:257: 已关闭所有页面
+2025/02/27 17:18:50 browser_edge.go:260: 已关闭浏览器上下文
+2025/02/27 17:18:50 browser_edge.go:262: 已关闭浏览器
+2025/02/27 17:18:50 browser_edge.go:264: 已关闭 Playwright
+2025/02/27 17:18:50 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:18:50 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:18:50 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:18:50 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:23:45 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:23:46 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:23:46 browser_edge.go:250: 页面控制台: >>> 已拦截 Performance API，隐藏 127.0.0.1 连接
+2025/02/27 17:23:46 browser_edge.go:127: 已在 about:blank 上拦截 Performance API
+2025/02/27 17:23:46 browser_edge.go:309: 已成功访问网站: about:blank
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: >>> 已拦截 Performance API，隐藏 127.0.0.1 连接
+2025/02/27 17:23:48 browser_edge.go:127: 已在 https://juejin.cn/ 上拦截 Performance API
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: 使用兜底 TDK
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:23:48 browser_edge.go:250: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:23:49 browser_edge.go:309: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg54y_amF2YQ==:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bKB5pyI5Y-v6LS1:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5byA5Y-R54ix5aW96ICF:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSm9rZW55:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6J2O5a2Q6I6x6I6x54ix5omT5oCq:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5bCP5a-S:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5a6H5a6Z5LmL5LiA57Kf:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5pS75Z-O5biI5LiN5rWq:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LqU6KGM5pif6L6w:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg55So5oi3NTEwMTc2MTM0Mzg2OA==:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5oC75piv552h5LiN5aSf:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5aSn5r6I:q75.awebp" parse error
+2025/02/27 17:23:49 browser_edge.go:250: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:24:11 browser_edge.go:250: 页面控制台: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:24:32 browser_edge.go:250: 页面控制台: 'state' should be a method that returns an object in store/modules/device.js
+2025/02/27 17:24:32 browser_edge.go:250: 页面控制台: 'state' should be a method that returns an object in store/modules/language.js
+2025/02/27 17:24:32 browser_edge.go:250: 页面控制台: 'state' should be a method that returns an object in store/modules/login.js
+2025/02/27 17:24:32 browser_edge.go:250: 页面控制台: 'state' should be a method that returns an object in store/modules/platform.js
+2025/02/27 17:24:32 browser_edge.go:250: 页面控制台: 'state' should be a method that returns an object in store/modules/searchHistory.js
+2025/02/27 17:24:32 browser_edge.go:250: 页面控制台: 'state' should be a method that returns an object in store/modules/source.js
+2025/02/27 17:24:34 browser_edge.go:250: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:24:34 browser_edge.go:250: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:24:34 browser_edge.go:250: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: 使用兜底 TDK
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:24:40 browser_edge.go:250: 页面控制台: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YiY5bCP54Gw:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP6aKc5ZCM5a2m:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgTWFjcm9aaGVuZw==:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5oGL54yrZGXlsI_pg60=:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv5YiH5ZyW5LuU:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgenlraw==:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgTW9tZW50:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aSn5rW35piv6JOd6ImyYmx1ZQ==:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgVk9MVU4=:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5LiN5aaC5pG46bG85Y67:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5oGL54yrZGXlsI_pg60=:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgaU9T6Zi_546u:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5Zub5LiD5Ly1:q75.awebp" parse error
+2025/02/27 17:24:41 browser_edge.go:250: 页面控制台: current login_guide login_type {login_type: all} all
+2025/02/27 17:24:49 browser_edge.go:222: 正在关闭 Edge 浏览器...
+2025/02/27 17:24:49 browser_edge.go:229: 已关闭所有页面
+2025/02/27 17:24:49 browser_edge.go:232: 已关闭浏览器上下文
+2025/02/27 17:24:49 browser_edge.go:234: 已关闭浏览器
+2025/02/27 17:24:49 browser_edge.go:236: 已关闭 Playwright
+2025/02/27 17:24:49 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:24:49 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:24:49 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:24:49 SqliteDataSource.go:337: _local_storage's writer closed
+2025/02/27 17:26:26 SqliteDataSource.go:39: database file[E:/LTS/rpa-yjj-api/data/storage.db] already exists
+2025/02/27 17:26:27 browser_edge.go:184: 已找到正在运行的 Edge 实例，调试端口:9222
+2025/02/27 17:26:27 browser_edge.go:250: console: >>> 已拦截 Performance API，隐藏 127.0.0.1 连接
+2025/02/27 17:26:27 browser_edge.go:127: 已在 about:blank 上拦截 Performance API
+2025/02/27 17:26:27 browser_edge.go:307: 已成功访问网站: about:blank
+2025/02/27 17:26:28 browser_edge.go:250: console: >>> 已拦截 Performance API，隐藏 127.0.0.1 连接
+2025/02/27 17:26:28 browser_edge.go:127: 已在 https://juejin.cn/ 上拦截 Performance API
+2025/02/27 17:26:29 browser_edge.go:250: console: [options] {commonOptions: Object, captchaOptions: Object, secondVerifyWebOptions: undefined}
+2025/02/27 17:26:29 browser_edge.go:250: console: 使用兜底 TDK
+2025/02/27 17:26:29 browser_edge.go:250: console: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:26:29 browser_edge.go:250: console: Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113
+2025/02/27 17:26:29 browser_edge.go:250: console: Mixed Content: The page at 'https://juejin.cn/' was loaded over HTTPS, but requested an insecure element 'http://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cbb1ab22292bf5e41737e3cdf25c9549.png~tplv-k3u1fbpfcp-jj:115:0:0:0:q75.avis'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html
+2025/02/27 17:26:29 browser_edge.go:250: console: %c想要加入稀土掘金？投递简历：https://job.toutiao.com/s/idq6X5rb color:#1e80ff;
+2025/02/27 17:26:29 browser_edge.go:307: 已成功访问网站: https://juejin.cn/
+2025/02/27 17:26:29 browser_edge.go:250: console: -ms-high-contrast-adjust is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:26:29 browser_edge.go:250: console: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:26:29 browser_edge.go:250: console: -ms-high-contrast is in the process of being deprecated. Please see https://blogs.windows.com/msedgedev/2024/04/29/deprecating-ms-high-contrast/ for tips on updating to the new Forced Colors Mode standard.
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YmN56uv6YeR54aK:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5aSn5oCqdg==:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgTWVnYXRyb25LaW5n:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5Yac5p2R56iL5bqP5ZGY6ZmI6ZqP5piT:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgR2l0aHVi5o6Y6YeR6K6h5YiS:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5YWD5YWu:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5a6J5LuU:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgQ29kZVNoZWVw:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSnVzdEhhcHB5:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5ZOU5ZOp5ZOU5ZOp5oqA5pyv:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5be06buO5rKh5pyJ5pGp5aSp6L2u:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: parseImageXUrl "tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg56iL5bqP5ZGY5aSn5r6I:q75.awebp" parse error
+2025/02/27 17:26:30 browser_edge.go:250: console: current login_guide login_type {login_type: all} all
+2025/02/27 17:26:31 browser_edge.go:250: console: Access to fetch at 'https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/0b76076eab124179816d68b846280cdc~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgTWVnYXRyb25LaW5n:q75.awebp?rk3s=f64ab15b&x-expires=1741253189&x-signature=KCPpeYtyG3FpQD103SMP8HdhZ68%3D' from origin 'https://juejin.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+2025/02/27 17:26:31 browser_edge.go:250: console: Failed to load resource: net::ERR_FAILED
+2025/02/27 17:26:31 browser_edge.go:250: console: [SDK] 1740648391091        0 获取header失败 TypeError: Failed to fetch
+    at fetch (https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/rc-client-security-web-glue/1.0.0.19/sdk-glue.js:1:43571)
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/rc-client-security-web-glue/1.0.0.19/sdk-glue.js:1:82234
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/e473033.js:3:2254253
+    at e (https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js:1:214165)
+    at e (https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js:1:213135)
+    at https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/sec_sdk_build/4.0.10/captcha/index.js:16:44602
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/slardar-plugin/imageReport.js:1:7069
+    at o (https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/slardar-plugin/imageReport.js:1:3227)
+    at https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=2608&globalName=SlardarWeb:1:13231
+    at o (https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=2608&globalName=SlardarWeb:1:3313)
+2025/02/27 17:26:31 browser_edge.go:250: console: Access to fetch at 'https://p3-xtjj-sign.byteimg.com/tos-cn-i-73owjymdk6/bc593d9f17054ab3ba3248bb767aac87~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAgSnVzdEhhcHB5:q75.awebp?rk3s=f64ab15b&x-expires=1741253189&x-signature=ShysgzR0tx1H2WkKbRkBdFfUfS4%3D' from origin 'https://juejin.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+2025/02/27 17:26:31 browser_edge.go:250: console: Failed to load resource: net::ERR_FAILED
+2025/02/27 17:26:31 browser_edge.go:250: console: [SDK] 1740648391095        1 获取header失败 TypeError: Failed to fetch
+    at fetch (https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/rc-client-security-web-glue/1.0.0.19/sdk-glue.js:1:43571)
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/rc-client-security-web-glue/1.0.0.19/sdk-glue.js:1:82234
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/e473033.js:3:2254253
+    at e (https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js:1:214165)
+    at e (https://lf-headquarters-speed.yhgfb-cn-static.com/obj/rc-client-security/web/stable/1.0.0.33/bdms.js:1:213135)
+    at https://lf-cdn-tos.bytescm.com/obj/rc-verifycenter/sec_sdk_build/4.0.10/captcha/index.js:16:44602
+    at https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/slardar-plugin/imageReport.js:1:7069
+    at o (https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/slardar-plugin/imageReport.js:1:3227)
+    at https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=2608&globalName=SlardarWeb:1:13231
+    at o (https://lf3-short.ibytedapm.com/slardar/fe/sdk-web/browser.cn.js?bid=2608&globalName=SlardarWeb:1:3313)
+2025/02/27 17:26:51 browser_edge.go:250: console: Failed to load resource: net::ERR_CONNECTION_TIMED_OUT
+2025/02/27 17:27:29 browser_edge.go:222: 正在关闭 Edge 浏览器...
+2025/02/27 17:27:29 browser_edge.go:229: 已关闭所有页面
+2025/02/27 17:27:29 browser_edge.go:232: 已关闭浏览器上下文
+2025/02/27 17:27:29 browser_edge.go:234: 已关闭浏览器
+2025/02/27 17:27:29 browser_edge.go:236: 已关闭 Playwright
+2025/02/27 17:27:29 SqliteDataSource.go:312: closing sqlite data source[_local_storage]
+2025/02/27 17:27:29 SqliteDataSource.go:324: sqlite data source[_local_storage] tasks done
+2025/02/27 17:27:29 SqliteDataSource.go:331: _local_storage's reader closed
+2025/02/27 17:27:29 SqliteDataSource.go:337: _local_storage's writer closed
