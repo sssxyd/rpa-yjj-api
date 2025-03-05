@@ -11,6 +11,15 @@ import (
 	"github.com/playwright-community/playwright-go"
 )
 
+func removeByValue(slice []string, value string) []string {
+	for i, v := range slice {
+		if v == value {
+			return append(slice[:i], slice[i+1:]...)
+		}
+	}
+	return slice // 未找到匹配值，返回原切片
+}
+
 // isPortAvailable 检查指定端口是否可用
 func isPortAvailable(port int) bool {
 	ln, err := net.Listen("tcp", fmt.Sprintf(":%d", port))
@@ -94,54 +103,109 @@ func startNewEdge(edgePath, port string) (*exec.Cmd, error) {
 	return cmd, nil
 }
 
-func blockPerformanceAPIDetection(p playwright.Page) error {
-	_, err := p.Evaluate(`() => {
-        // 保存原始方法
-        const originalGetEntriesByType = performance.getEntriesByType;
-        const originalGetEntries = performance.getEntries;
+func block_detector(p playwright.Page, port int) error {
+	script := fmt.Sprintf(`() => {
+		const debugPort = "%d";
+		const originalGetEntries = performance.getEntries;
+		const originalGetEntriesByType = performance.getEntriesByType;
+		const OriginalWebSocket = window.WebSocket;
 
-        // 重写 getEntriesByType 方法
-        performance.getEntriesByType = function(type) {
-            const entries = originalGetEntriesByType.call(this, type);
-            // 过滤掉包含 127.0.0.1 的条目
-            return entries.filter(entry => {
-                return !entry.name.includes("127.0.0.1") && !entry.name.includes("localhost");
-            });
-        };
-
-        // 重写 getEntries 方法
+		// 过滤 Performance 条目
         performance.getEntries = function() {
-            const entries = originalGetEntries.call(this);
-            // 过滤掉包含 127.0.0.1 的条目
-            return entries.filter(entry => {
-                return !entry.name.includes("127.0.0.1") && !entry.name.includes("localhost");
-            });
+            return originalGetEntries.call(this).filter(entry => 
+                !entry.name.includes("127.0.0.1:" + debugPort) && 
+                !entry.name.includes("localhost:" + debugPort)
+            );
         };
 
-        console.log(">>> 已拦截 Performance API，隐藏 127.0.0.1 连接");
-    }`)
+		performance.getEntriesByType = function(type) {
+			return originalGetEntriesByType.call(this, type).filter(entry =>
+                !entry.name.includes("127.0.0.1:" + debugPort) && 
+                !entry.name.includes("localhost:" + debugPort)
+			);
+		};
+
+		// 拦截 WebSocket 连接
+		window.WebSocket = function(urlArg, protocols) {
+		// 统一处理 URL 格式
+		const url = urlArg instanceof URL ? urlArg.href : urlArg;
+		
+		// 检测目标地址
+		if (typeof url === 'string' && 
+			(url.includes("127.0.0.1:" + debugPort) || 
+			url.includes("localhost:" + debugPort))) {
+			
+			// 创建虚假的 WebSocket 对象
+			const fakeWs = new OriginalWebSocket('ws://invalid-host-' + Date.now());
+			
+			// 立即关闭连接并修改状态
+			Object.defineProperty(fakeWs, 'readyState', {
+			value: OriginalWebSocket.CLOSED,
+			writable: false
+			});
+			
+			// 强制触发错误事件
+			const errorEvent = new Event('error');
+			errorEvent.initEvent('error', false, false);
+			
+			// 设置异步触发确保执行顺序
+			setTimeout(() => {
+			if (typeof fakeWs.onerror === 'function') {
+				fakeWs.onerror(errorEvent);
+			}
+			fakeWs.dispatchEvent(errorEvent);
+			
+			fakeWs.close();
+			}, 0);
+			
+			return fakeWs;
+		}
+		
+		// 正常连接处理
+		return protocols ? 
+			new OriginalWebSocket(urlArg, protocols) : 
+			new OriginalWebSocket(urlArg);
+		};
+
+		// 保持原型链完整
+		window.WebSocket.prototype = OriginalWebSocket.prototype;		
+	}`, port)
+	_, err := p.Evaluate(script)
 	if err != nil {
-		log.Printf("注入 Performance API 拦截脚本失败: %v", err)
+		log.Printf("注入拦截脚本失败: %v", err)
 		return err
 	}
-	log.Printf("已在 %s 上拦截 Performance API", p.URL())
+
+	// // 网络请求拦截
+	// p.Route("**/*:*", func(route playwright.Route) {
+	// 	req := route.Request()
+	// 	if strings.Contains(req.URL(), fmt.Sprintf(":%d", port)) {
+	// 		route.Abort()
+	// 	} else {
+	// 		route.Continue()
+	// 	}
+	// })
+
+	log.Printf(">>>已拦截 Performance API 和网络请求")
+
 	return nil
 }
 
 type PlaywrightEdge struct {
-	port        int
-	pw          *playwright.Playwright
-	browser     playwright.Browser
-	context     playwright.BrowserContext
-	allPages    map[string]playwright.Page
-	currentPage playwright.Page
+	port     int
+	pw       *playwright.Playwright
+	browser  playwright.Browser
+	context  playwright.BrowserContext
+	allPages map[string]playwright.Page
+	tabIds   []string
+	index    int
 }
 
 func NewPlaywrightEdge(port int) (*PlaywrightEdge, error) {
 	// 1. 找到系统中 Edge 的可执行文件路径
 	edgePath := "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
 
-	// 2. 获取一个可用端口
+	// 2. 获取一个可用端口，用于调试
 	var debugPort int
 	if port > 0 {
 		debugPort = port
@@ -208,22 +272,64 @@ func NewPlaywrightEdge(port int) (*PlaywrightEdge, error) {
 
 	// 6. 创建 PlaywrightEdge 实例
 	pe := &PlaywrightEdge{
-		port:        debugPort,
-		pw:          pw,
-		browser:     browser,
-		context:     browserContext,
-		allPages:    make(map[string]playwright.Page),
-		currentPage: nil,
+		port:     debugPort,
+		pw:       pw,
+		browser:  browser,
+		context:  browserContext,
+		allPages: make(map[string]playwright.Page),
+		tabIds:   []string{},
+		index:    0,
 	}
 
 	// 7. 创建一个默认页面
-	pe.currentPage, err = pe.NewPage("default", "about:blank")
+	_, err = pe.NewPage("default", "about:blank")
 	if err != nil {
 		pe.Close()
 		return nil, err
 	}
-
+	pe.setCurrentPage("default")
 	return pe, nil
+}
+
+func (pe *PlaywrightEdge) addPage(id string, page playwright.Page) {
+	pe.allPages[id] = page
+	pe.tabIds = append(pe.tabIds, id)
+}
+
+func (pe *PlaywrightEdge) removePage(id string) {
+	p := pe.GetPage(id)
+	if p == nil {
+		return
+	}
+	err := p.Close()
+	if err != nil {
+		log.Printf("关闭页面失败: %v", err)
+	}
+	delete(pe.allPages, id)
+	pe.tabIds = removeByValue(pe.tabIds, id)
+	if len(pe.tabIds) == 0 {
+		pe.NewPage("default", "about:blank")
+		pe.index = 0
+	} else {
+		if pe.index >= len(pe.tabIds) {
+			pe.index = len(pe.tabIds) - 1
+		}
+		pe.allPages[pe.tabIds[pe.index]].BringToFront()
+	}
+}
+
+func (pe *PlaywrightEdge) setCurrentPage(id string) {
+	for i, tabId := range pe.tabIds {
+		if tabId == id {
+			if pe.index == i {
+				return
+			}
+			pe.index = i
+			pe.allPages[id].BringToFront()
+			log.Printf("切换到标签页: %s", pe.tabIds[pe.index])
+			return
+		}
+	}
 }
 
 func (pe *PlaywrightEdge) Close() {
@@ -235,7 +341,6 @@ func (pe *PlaywrightEdge) Close() {
 		}
 	}
 	log.Println("已关闭所有页面")
-	pe.currentPage = nil
 	pe.context.Close()
 	log.Println("已关闭浏览器上下文")
 	pe.browser.Close()
@@ -254,17 +359,17 @@ func (pe *PlaywrightEdge) NewPage(id string, url string) (playwright.Page, error
 		return nil, fmt.Errorf("无法创建新页面: %v", err)
 	}
 
+	// 监听控制台消息
 	page.On("console", func(message playwright.ConsoleMessage) {
 		log.Printf("console: %s", message.Text())
 	})
 
-	pe.currentPage = page
-	err = pe.Goto(url)
+	pe.addPage(id, page)
+
+	err = pe.PageVisit(id, url)
 	if err != nil {
 		return nil, err
 	}
-	pe.allPages[id] = page
-
 	return page, nil
 }
 
@@ -276,37 +381,43 @@ func (pe *PlaywrightEdge) GetPage(id string) playwright.Page {
 }
 
 func (pe *PlaywrightEdge) CurrentPage() playwright.Page {
-	return pe.currentPage
+	return pe.allPages[pe.tabIds[pe.index]]
 }
 
 func (pe *PlaywrightEdge) ClosePage(id string) error {
-	if page, ok := pe.allPages[id]; ok {
-		err := page.Close()
-		if err != nil {
-			return fmt.Errorf("关闭页面失败: %v", err)
-		}
-		delete(pe.allPages, id)
+	if id == "default" {
+		return fmt.Errorf("默认页面不能关闭")
 	}
+	pe.removePage(id)
 	return nil
 }
 
-func (pe *PlaywrightEdge) Goto(url string) error {
+func (pe *PlaywrightEdge) CloseCurrentPage() error {
+	return pe.ClosePage(pe.tabIds[pe.index])
+}
+
+func (pe *PlaywrightEdge) PageVisit(id string, url string) error {
 	// 导航
-	_, err := pe.currentPage.Goto(url, playwright.PageGotoOptions{
+	page := pe.GetPage(id)
+	if page == nil {
+		return fmt.Errorf("未找到 ID 为 %s 的页面", id)
+	}
+	_, err := page.Goto(url, playwright.PageGotoOptions{
 		WaitUntil: playwright.WaitUntilStateDomcontentloaded,
 	})
 	if err != nil {
 		return fmt.Errorf("无法访问网站: %v", err)
 	}
 
-	// 拦截 Performance API
-	err = blockPerformanceAPIDetection(pe.currentPage)
-	if err != nil {
-		log.Printf("拦截 Performance API 失败: %v", err)
-	}
+	// // 拦截 Performance API
+	// err = blockPerformanceAPIDetection(page)
+	// if err != nil {
+	// 	log.Printf("拦截 Performance API 失败: %v", err)
+	// }
+	block_detector(page, pe.port)
 
 	// 等待页面完全加载
-	err = pe.currentPage.WaitForLoadState(playwright.PageWaitForLoadStateOptions{
+	err = page.WaitForLoadState(playwright.PageWaitForLoadStateOptions{
 		State: playwright.LoadStateLoad,
 	})
 	if err != nil {
@@ -315,4 +426,89 @@ func (pe *PlaywrightEdge) Goto(url string) error {
 	log.Printf("已成功访问网站: %s", url)
 
 	return nil
+}
+
+func (pe *PlaywrightEdge) Visit(url string) error {
+	return pe.PageVisit(pe.tabIds[pe.index], url)
+}
+
+func (pe *PlaywrightEdge) OpenNewPage(id string, action func() error, timeout float64) (playwright.Page, error) {
+	// 创建一个通道来接收新页面
+	newPageChan := make(chan playwright.Page, 1)
+
+	// 在 goroutine 中监听新页面
+	go func() {
+		newPage, err := pe.context.WaitForEvent("page")
+		if err != nil {
+			log.Printf("等待新页面失败: %v", err)
+			return
+		}
+		newPageObj := newPage.(playwright.Page)
+		err = newPageObj.WaitForLoadState(playwright.PageWaitForLoadStateOptions{
+			State: playwright.LoadStateDomcontentloaded,
+		})
+		if err != nil {
+			log.Printf("新页面加载失败: %v", err)
+			return
+		}
+		block_detector(newPageObj, pe.port)
+		newPageChan <- newPageObj
+	}()
+
+	// 触发事件
+	err := action()
+	if err != nil {
+		return nil, fmt.Errorf("触发事件失败: %v", err)
+	}
+
+	// 等待新页面
+	select {
+	case newPage := <-newPageChan:
+		pe.addPage(id, newPage)
+		log.Printf("成功捕获新标签页，ID: %s", id)
+		return newPage, nil
+	case <-time.After(time.Duration(timeout) * time.Millisecond):
+		return nil, fmt.Errorf("超时，未捕获到新标签页")
+	}
+}
+
+func (pe *PlaywrightEdge) SwitchToPage(id string) error {
+	if pe.tabIds[pe.index] == id {
+		return nil
+	}
+	pe.setCurrentPage(id)
+	return nil
+}
+
+func (pe *PlaywrightEdge) SwitchToNextPage() error {
+	if len(pe.tabIds) <= 1 || pe.index == len(pe.tabIds)-1 {
+		return nil
+	}
+	pe.index++
+	pe.allPages[pe.tabIds[pe.index]].BringToFront()
+	log.Printf("切换到标签页: %s", pe.tabIds[pe.index])
+	return nil
+}
+
+func (pe *PlaywrightEdge) SwitchToPreviousPage() error {
+	if len(pe.tabIds) <= 1 || pe.index == 0 {
+		return nil
+	}
+	pe.index--
+	pe.allPages[pe.tabIds[pe.index]].BringToFront()
+	log.Printf("切换到标签页: %s", pe.tabIds[pe.index])
+	return nil
+}
+
+func (pe *PlaywrightEdge) WaitForSelector(selector string, timeout float64) (playwright.Locator, error) {
+	page := pe.CurrentPage()
+	locator := page.Locator(selector)
+	err := locator.WaitFor(playwright.LocatorWaitForOptions{
+		State:   playwright.WaitForSelectorStateVisible,
+		Timeout: playwright.Float(timeout),
+	})
+	if err != nil {
+		return nil, err
+	}
+	return locator, nil
 }

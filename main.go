@@ -52,13 +52,15 @@ func main() {
 	root_path := get_app_root_dir()
 	fmt.Println("Root path:", root_path)
 
-	pe, err := NewPlaywrightEdge(0)
-	if err != nil {
-		log.Fatalf("无法启动 Edge 浏览器: %v", err)
-	}
-	defer pe.Close()
-	pe.NewPage("juejin", "https://juejin.cn")
-	time.Sleep(60 * time.Second)
+	// path := filepath.Join(root_path, "进口原研药列表.xlsx")
+	// YuanYanYao(path)
+
+	start_time := time.Now()
+	suffix := time.Now().Format("1504")
+	path := filepath.Join(root_path, fmt.Sprintf("进口药列表-%s.xlsx", suffix))
+	JinKouYao(path, 301, 335)
+	end_time := time.Now()
+	fmt.Println("Time elapsed:", end_time.Sub(start_time))
 
 	fmt.Println("--------------------")
 
