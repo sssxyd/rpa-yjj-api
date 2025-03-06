@@ -91,7 +91,11 @@ func newEdgeBrowser(edgePath string, startPort, endPort int) (*EdgeBrowser, erro
 	}
 
 	// 6. 创建默认标签页
-	pe.NewTabPage("default", "about:blank")
+	tabPage := pe.NewTabPage("default", "about:blank")
+	if tabPage == nil {
+		pe.Close()
+		return nil, fmt.Errorf("无法创建默认标签页")
+	}
 
 	return pe, nil
 }
@@ -103,9 +107,6 @@ func (b *EdgeBrowser) addTabPage(id string, url string, page playwright.Page) *E
 }
 
 func (b *EdgeBrowser) removeTabPage(id string) {
-	b.locker.Lock()
-	defer b.locker.Unlock()
-
 	var tabPage *EdgeTabPage
 	for i, page := range b.tabPages {
 		if page.ID() == id {

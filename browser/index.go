@@ -3,7 +3,6 @@ package browser
 import (
 	"encoding/json"
 	"fmt"
-	"time"
 
 	"github.com/playwright-community/playwright-go"
 )
@@ -15,7 +14,7 @@ type TabPage interface {
 	Domain() string
 	IsClosed() bool
 	BringToFront()
-	OpenInNewTab(id string, action func() error, timeout time.Duration) TabPage
+	OpenInNewTab(id string, action func() error, timeout float64) TabPage
 	WaitSelector(selector string, timeout float64) playwright.Locator
 	QuerySelector(selector string) playwright.Locator
 	QuerySelectorAll(selector string) []playwright.Locator

@@ -1,6 +1,7 @@
 package browser
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"time"
@@ -13,8 +14,6 @@ type EdgeTabPage struct {
 	url     string
 	browser *EdgeBrowser
 	page    playwright.Page
-	session playwright.CDPSession
-	active  bool
 }
 
 func newEdgeTabPage(id string, url string, browser *EdgeBrowser, page playwright.Page) *EdgeTabPage {
@@ -69,17 +68,22 @@ func (t *EdgeTabPage) Page() playwright.Page {
 	return t.page
 }
 
-func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout time.Duration) TabPage {
+func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout float64) TabPage {
 	// 互斥锁，防止同时打开多个标签页
 	t.browser.locker.Lock()
 	defer t.browser.locker.Unlock()
 
 	// 创建一个通道来接收新页面
 	newPageChan := make(chan playwright.Page, 1)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(timeout)*time.Millisecond)
+	defer cancel() // 确保资源释放
 
 	// 在 goroutine 中监听新页面
 	go func() {
-		newPage, err := t.browser.context.WaitForEvent("page")
+		newPage, err := t.browser.context.WaitForEvent("page", playwright.BrowserContextWaitForEventOptions{
+			Predicate: func(event any) bool { return true },
+			Timeout:   playwright.Float(timeout),
+		})
 		if err != nil {
 			log.Printf("等待新页面失败: %v", err)
 			return
@@ -97,7 +101,12 @@ func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout time.
 		listen_page_console_log(newPageObj)
 		block_debug_port_detector(newPageObj, t.browser.port)
 
-		newPageChan <- newPageObj
+		select {
+		case newPageChan <- newPageObj: // 尝试发送
+		case <-ctx.Done(): // 若超时则放弃发送
+			log.Println("放弃发送已超时的页面")
+			newPageObj.Close()
+		}
 	}()
 
 	// 触发事件
@@ -113,7 +122,7 @@ func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout time.
 		tabPage := t.browser.addTabPage(id, newPage.URL(), newPage)
 		log.Printf("成功捕获新标签页, ID: %s", id)
 		return tabPage
-	case <-time.After(timeout):
+	case <-ctx.Done():
 		log.Printf("等待新标签页超时: %v", timeout)
 		return nil
 	}
@@ -125,6 +134,7 @@ func (t *EdgeTabPage) WaitSelector(selector string, timeout float64) playwright.
 		log.Printf("无法找到选择器: %s", selector)
 		return nil
 	}
+	// await expect(lolocator).toHaveCount(1)
 	count, err := locator.Count()
 	if err != nil {
 		log.Printf("无法获取选择器数量: %v", err)
@@ -197,36 +207,28 @@ func (t *EdgeTabPage) QuerySelectorAll(selector string) []playwright.Locator {
 }
 
 func (t *EdgeTabPage) ClearLocalData() error {
-	// ---------- 清除所有存储 ----------
 	log.Printf("正在清除站点%s的所有本地存储...", t.Domain())
-	// 1. 清除 localStorage 和 sessionStorage
 	if _, err := t.page.Evaluate("localStorage.clear()"); err != nil {
-		log.Fatalf("清空 localStorage 失败: %v", err)
+		return fmt.Errorf("清空 localStorage 失败: %w", err)
 	}
 	if _, err := t.page.Evaluate("sessionStorage.clear()"); err != nil {
-		log.Fatalf("清空 sessionStorage 失败: %v", err)
+		return fmt.Errorf("清空 sessionStorage 失败: %w", err)
 	}
-
-	// 2. 清除 Cookies（针对当前域名）
 	if err := t.browser.context.ClearCookies(); err != nil {
-		log.Fatalf("清除 Cookies 失败: %v", err)
+		return fmt.Errorf("清除 Cookies 失败: %w", err)
 	}
-
-	// 3. 清除 IndexedDB（通过 JavaScript）
 	if _, err := t.page.Evaluate(`
-		async () => {
-			const databases = await window.indexedDB.databases();
-			for (const db of databases) {
-				if (db.name) {
-					window.indexedDB.deleteDatabase(db.name);
-				}
-			}
-		}
-	`); err != nil {
-		log.Fatalf("清除 IndexedDB 失败: %v", err)
+        async () => {
+            const databases = await window.indexedDB.databases();
+            for (const db of databases) {
+                if (db.name) {
+                    window.indexedDB.deleteDatabase(db.name);
+                }
+            }
+        }
+    `); err != nil {
+		return fmt.Errorf("清除 IndexedDB 失败: %w", err)
 	}
-	log.Println("所有存储已清除！")
-
 	return nil
 }
 
