@@ -69,17 +69,24 @@ func (t *EdgeTabPage) Page() playwright.Page {
 }
 
 func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout float64) TabPage {
-	// 互斥锁，防止同时打开多个标签页
 	t.browser.locker.Lock()
 	defer t.browser.locker.Unlock()
 
-	// 创建一个通道来接收新页面
-	newPageChan := make(chan playwright.Page, 1)
 	ctx, cancel := context.WithTimeout(context.Background(), time.Duration(timeout)*time.Millisecond)
-	defer cancel() // 确保资源释放
+	defer cancel()
 
-	// 在 goroutine 中监听新页面
+	newPageChan := make(chan playwright.Page, 1)
+	done := make(chan struct{}) // 用于等待 goroutine 退出
+
 	go func() {
+		defer close(done) // 确保 goroutine 退出时发送信号
+
+		select {
+		case <-ctx.Done():
+			return
+		default:
+		}
+
 		newPage, err := t.browser.context.WaitForEvent("page", playwright.BrowserContextWaitForEventOptions{
 			Predicate: func(event any) bool { return true },
 			Timeout:   playwright.Float(timeout),
@@ -88,12 +95,11 @@ func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout float
 			log.Printf("等待新页面失败: %v", err)
 			return
 		}
+
 		newPageObj := newPage.(playwright.Page)
-		err = newPageObj.WaitForLoadState(playwright.PageWaitForLoadStateOptions{
+		if err := newPageObj.WaitForLoadState(playwright.PageWaitForLoadStateOptions{
 			State: playwright.LoadStateDomcontentloaded,
-		})
-		if err != nil {
-			log.Printf("新标签页加载失败: %v", err)
+		}); err != nil {
 			newPageObj.Close()
 			return
 		}
@@ -102,27 +108,25 @@ func (t *EdgeTabPage) OpenInNewTab(id string, action func() error, timeout float
 		block_debug_port_detector(newPageObj, t.browser.port)
 
 		select {
-		case newPageChan <- newPageObj: // 尝试发送
-		case <-ctx.Done(): // 若超时则放弃发送
-			log.Println("放弃发送已超时的页面")
+		case newPageChan <- newPageObj:
+		case <-ctx.Done():
 			newPageObj.Close()
 		}
 	}()
 
-	// 触发事件
-	err := action()
-	if err != nil {
-		log.Printf("触发事件失败: %v", err)
+	if err := action(); err != nil {
+		cancel() // 取消上下文
+		<-done   // 等待 goroutine 退出
 		return nil
 	}
 
-	// 等待新页面
 	select {
 	case newPage := <-newPageChan:
 		tabPage := t.browser.addTabPage(id, newPage.URL(), newPage)
 		log.Printf("成功捕获新标签页, ID: %s", id)
 		return tabPage
 	case <-ctx.Done():
+		<-done // 等待 goroutine 清理完毕
 		log.Printf("等待新标签页超时: %v", timeout)
 		return nil
 	}
