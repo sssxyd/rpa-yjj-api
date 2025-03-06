@@ -118,7 +118,7 @@ func block_detector(p playwright.Page, port int) error {
             );
         };
 
-		performance.getEntriesByType = function(type) {
+		performance.getEntriesByType = function(type){
 			return originalGetEntriesByType.call(this, type).filter(entry =>
                 !entry.name.includes("127.0.0.1:" + debugPort) && 
                 !entry.name.includes("localhost:" + debugPort)
@@ -176,17 +176,7 @@ func block_detector(p playwright.Page, port int) error {
 		return err
 	}
 
-	// // 网络请求拦截
-	// p.Route("**/*:*", func(route playwright.Route) {
-	// 	req := route.Request()
-	// 	if strings.Contains(req.URL(), fmt.Sprintf(":%d", port)) {
-	// 		route.Abort()
-	// 	} else {
-	// 		route.Continue()
-	// 	}
-	// })
-
-	log.Printf(">>>已拦截 Performance API 和网络请求")
+	log.Printf(">>>已拦截Performance API和 WebSocket 请求")
 
 	return nil
 }
@@ -409,11 +399,6 @@ func (pe *PlaywrightEdge) PageVisit(id string, url string) error {
 		return fmt.Errorf("无法访问网站: %v", err)
 	}
 
-	// // 拦截 Performance API
-	// err = blockPerformanceAPIDetection(page)
-	// if err != nil {
-	// 	log.Printf("拦截 Performance API 失败: %v", err)
-	// }
 	block_detector(page, pe.port)
 
 	// 等待页面完全加载

@@ -418,7 +418,7 @@ func clear_local_storage(edge *PlaywrightEdge) error {
 	return nil
 }
 
-func JinKouYao(output_path string, start_page int, end_page int) {
+func CollectImportDrugs(output_path string, start_page int, end_page int) {
 	edge, err := NewPlaywrightEdge(0)
 	if err != nil {
 		log.Fatalf("无法启动 Edge 浏览器: %v", err)

@@ -57,8 +57,9 @@ func main() {
 
 	start_time := time.Now()
 	suffix := time.Now().Format("1504")
-	path := filepath.Join(root_path, fmt.Sprintf("进口药列表-%s.xlsx", suffix))
-	JinKouYao(path, 301, 335)
+	path := filepath.Join(root_path, fmt.Sprintf("进口原研药列表-%s.xlsx", suffix))
+	// CollectImportDrugs(path, 1, 50)
+	CollectOriginalDrugs(path, 7, 8)
 	end_time := time.Now()
 	fmt.Println("Time elapsed:", end_time.Sub(start_time))
 
