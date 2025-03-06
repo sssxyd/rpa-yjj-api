@@ -497,3 +497,38 @@ func (pe *PlaywrightEdge) WaitForSelector(selector string, timeout float64) (pla
 	}
 	return locator, nil
 }
+
+func (pe *PlaywrightEdge) ClearLocalData() error {
+	// ---------- 清除所有存储 ----------
+	page := pe.CurrentPage()
+	log.Printf("正在清除站点%s的所有本地存储...", page.URL())
+	// 1. 清除 localStorage 和 sessionStorage
+	if _, err := page.Evaluate("localStorage.clear()"); err != nil {
+		log.Fatalf("清空 localStorage 失败: %v", err)
+	}
+	if _, err := page.Evaluate("sessionStorage.clear()"); err != nil {
+		log.Fatalf("清空 sessionStorage 失败: %v", err)
+	}
+
+	// 2. 清除 Cookies（针对当前域名）
+	if err := pe.context.ClearCookies(); err != nil {
+		log.Fatalf("清除 Cookies 失败: %v", err)
+	}
+
+	// 3. 清除 IndexedDB（通过 JavaScript）
+	if _, err := page.Evaluate(`
+		async () => {
+			const databases = await window.indexedDB.databases();
+			for (const db of databases) {
+				if (db.name) {
+					window.indexedDB.deleteDatabase(db.name);
+				}
+			}
+		}
+	`); err != nil {
+		log.Fatalf("清除 IndexedDB 失败: %v", err)
+	}
+	log.Println("所有存储已清除！")
+
+	return nil
+}

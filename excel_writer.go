@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"strings"
 	"unicode"
 
@@ -99,6 +100,7 @@ func NewSimpleExcelTableWriter(headers []string) (*SimpleExcelTableWriter, error
 		Alignment: &excelize.Alignment{
 			Vertical:   "center",
 			Horizontal: "left",
+			WrapText:   true, // 自动换行
 		},
 
 		// 设置边框：实线
@@ -157,6 +159,10 @@ func (w *SimpleExcelTableWriter) WriteRow(row []string) error {
 			}
 		}
 
+		if newWidth > 120 {
+			newWidth = 120 // 最大宽度 120
+		}
+
 		if newWidth > w.colWidths[colIndex] {
 			w.colWidths[colIndex] = newWidth
 			w.file.SetColWidth(w.sheet, indexToExcelColumn(colIndex), indexToExcelColumn(colIndex), newWidth)
@@ -164,15 +170,19 @@ func (w *SimpleExcelTableWriter) WriteRow(row []string) error {
 	}
 
 	// 设置行高（可选，基于内容行数估算）
-	lines := 1 // 默认单行
-	for _, cellValue := range row {
-		lineCount := strings.Count(cellValue, "\n") + 1
-		if lineCount > lines {
-			lines = lineCount
-		}
-	}
-	if lines > 1 {
-		w.file.SetRowHeight(w.sheet, w.rowIndex, float64(lines)*15) // 每行约 15 单位高度
+	// lines := 1 // 默认单行
+	// for _, cellValue := range row {
+	// 	lineCount := strings.Count(cellValue, "\n") + 1
+	// 	if lineCount > lines {
+	// 		lines = lineCount
+	// 	}
+	// }
+	// if lines > 1 {
+	// 	w.file.SetRowHeight(w.sheet, w.rowIndex, float64(lines)*15) // 每行约 15 单位高度
+	// }
+	err := w.file.SetRowHeight(w.sheet, w.rowIndex, -1) // 自动高度
+	if err != nil {
+		log.Printf("设置第%d行的自适应行高失败: %v", w.rowIndex, err)
 	}
 
 	return nil

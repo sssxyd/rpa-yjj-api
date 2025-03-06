@@ -198,7 +198,7 @@ func od_get_page_data(edge *PlaywrightEdge, pageNo int) ([]*OriginalDrug, error)
 		btn := tr.Locator("td:nth-child(3) > div > a")
 		_, err = edge.OpenNewPage("详情页", func() error {
 			return btn.Click()
-		}, 10000)
+		}, 30000)
 		if err != nil {
 			return nil, err
 		}
@@ -233,16 +233,16 @@ func od_search_medicine(edge *PlaywrightEdge) int {
 	locator.Click()
 
 	// 选择：上市销售状况 --> 上市销售中
-	locator, err = edge.WaitForSelector(".layui-row:nth-child(4) .layui-input.layui-unselect", 1000)
-	if err != nil {
-		log.Fatalf("等待元素失败: %v", err)
-	}
-	locator.Click()
-	locator, err = edge.WaitForSelector(".layui-unselect.layui-form-select.layui-form-selected dd:nth-child(3)", 1000)
-	if err != nil {
-		log.Fatalf("等待元素失败: %v", err)
-	}
-	locator.Click()
+	// locator, err = edge.WaitForSelector(".layui-row:nth-child(4) .layui-input.layui-unselect", 1000)
+	// if err != nil {
+	// 	log.Fatalf("等待元素失败: %v", err)
+	// }
+	// locator.Click()
+	// locator, err = edge.WaitForSelector(".layui-unselect.layui-form-select.layui-form-selected dd:nth-child(3)", 1000)
+	// if err != nil {
+	// 	log.Fatalf("等待元素失败: %v", err)
+	// }
+	// locator.Click()
 
 	// 选择：收录类别 --> 进口原研药品
 	locator, err = edge.WaitForSelector(".layui-row:nth-child(5) .layui-input.layui-unselect", 1000)
@@ -281,7 +281,7 @@ func od_search_medicine(edge *PlaywrightEdge) int {
 		Values: &[]string{"90"},
 	})
 
-	time.Sleep(1 * time.Second)
+	time.Sleep(3 * time.Second)
 	locator, err = edge.WaitForSelector(".layui-laypage-last", 1000)
 	if err != nil {
 		log.Fatalf("等待元素失败: %v", err)
@@ -338,6 +338,7 @@ func CollectOriginalDrugs(output_path string, start_page int, end_page int) {
 	}
 
 	log.Printf("共 %d 条数据", len(medicines))
+	edge.ClearLocalData()
 
 	excel, err := NewSimpleExcelTableWriter(GetOriginalDrugHeaders())
 	if err != nil {
