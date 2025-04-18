@@ -138,9 +138,7 @@ func (b *EdgeBrowser) NewTabPage(id string, url string) TabPage {
 	}
 
 	// 监听控制台消息
-	page.On("console", func(message playwright.ConsoleMessage) {
-		log.Printf("console: %s", message.Text())
-	})
+	listen_page_console_log(page)
 
 	tabPage := b.addTabPage(id, url, page)
 

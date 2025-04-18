@@ -111,6 +111,7 @@ func startNewEdge(edgePath, port string) (*exec.Cmd, error) {
 	if err != nil {
 		return nil, fmt.Errorf("无法启动 Edge 浏览器: %v", err)
 	}
+	log.Printf("Edge 浏览器已启动，调试端口: %s", port)
 	return cmd, nil
 }
 

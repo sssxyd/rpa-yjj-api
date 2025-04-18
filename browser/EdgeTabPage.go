@@ -10,10 +10,10 @@ import (
 )
 
 type EdgeTabPage struct {
-	id      string
-	url     string
-	browser *EdgeBrowser
-	page    playwright.Page
+	id      string          // 标签页ID
+	url     string          // 标签页初始URL
+	browser *EdgeBrowser    // 浏览器实例
+	page    playwright.Page // 标签页实例
 }
 
 func newEdgeTabPage(id string, url string, browser *EdgeBrowser, page playwright.Page) *EdgeTabPage {
